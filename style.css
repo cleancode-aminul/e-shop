@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    box-shadow: 0 2px 5px #7caf3c;
+}
+.card{
+    display: flex;
+}
+.titiles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container .navbar-brand {
+    font-size: 30px;
+    font-family: 'Passion One', cursive;
+    font-weight: 700;
+    color: #7caf3c;
+}
+/* --------------------5 star icons color--------------------------- */
+.titiles i{
+    color: #7caf3c;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2px;
+    font-size: 16px;
+    color: #4b8504;
+}
+.carousel-inner{
+    background-color:#dfdedd;
+}
+
+#formm{
+    
+    background-color: rgb(27, 27, 41) !important;
+    width: 200px;
+    color: aliceblue;
+ 
+
+}
+.btn-car{
+    background-color:transparent;
+    padding: 5px 10px;
+    border: 2px solid #7caf3c;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.btn-car:hover{
+background-color: #7caf3c;
+color: #fff;
+}
+.title-section {
+    margin: 180px 0 0 120px;
+}
+
+.title-section h5 {
+ color: #050505;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.title-section h1 {
+    color: #4b8504;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    font-weight: 600;
+
+}
+
+.title-section h5 {
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.carousel-item img {
+    height: 550px;
+    width: 600px;
+}
+/******************************** main section start******************************** */
+.card-img-top{
+    transition: 0.3s all;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+    cursor: pointer;
+    
+    
+}
+#trans:hover{
+    border: 1px solid rgb(150, 146, 146);
+    padding: 0px 10px;
+    box-shadow: 0 2px 3px #9e9d9d;
+    cursor: pointer;
+   
+}
+
+/* btn styll here */
+#cart-btn{
+    background-color: #7caf3c;
+    padding: 5px 35px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #fff;
+    border: 5px solid #0d0d0d;
+}
+
+/* ---------------------------------after before section  start--------------------------------------------- */
+#prod h3 {
+    position: relative;
+    font-weight: 700;
+    text-shadow: 0 0 1px rgb(20, 18, 18);
+    }
+    #prod h3::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 235px;
+        display: block;
+        left: 0;
+        bottom: -3;
+        background-color: black;
+    }
+    #pr-fr h3{
+        position: relative;
+        font-weight: 700;
+        text-shadow: 0 0 1px rgb(20, 18, 18);
+    }
+    #pr-fr h3::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 125px;
+        display: block;
+        left: 640;
+        top:-6;
+        background-color: black;
+    }
+    #pr-br h3{
+        position: relative;
+        font-weight: 700;
+        text-shadow: 0 0 1px rgb(20, 18, 18);
+    }
+    #pr-br h3::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 152px;
+        display: block;
+        left: 640;
+        top:-6;
+        background-color: black;
+    }
+/* ---------------------------------after before section  start--------------------------------------------- */
+
+.prag span {
+    font-size: 16px;
+    font-family:"sans-serif";
+    font-weight: 700;
+  
+}
+.prag a{
+    text-decoration: none;
+    color: #ffff;
+}
+/* counter section */
+
+#count{
+    position: absolute;
+    margin-top: -230px;
+    padding-left: 80px;
+   
+}
+.write img{
+    position: relative;
+}
+/* icons */
+.icons a {
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+    margin-left: -6px;
+}
+#iimg #imgi{
+    height: 50px;
+    margin-left: 10px;
+}
+#footer{
+  background-color:#0d0d0d;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 65px;
+
+}
+/* *****************newsletter section start*************** */
+#neweletter{
+    background-color: #ffffff;
+    border: 2px solid #7caf3c;
+    border-radius: 8px;
+ 
+}
+.input-group ::placeholder{
+    font-size: 18px;
+   padding-left: 15px;
+   font-family: monospace;
+}
+#ne-btn:hover{
+    box-shadow: 0 2px 5px #0d0d0d;
+ 
+}
+.form-con{
+    height: 40px;
+    width: 80%;
+    border-radius:50px;
+   border: 2px solid #7caf3c;
+   padding-left: 20px;
+    
+}
+#ne-btn{
+    background-color: #7caf3c;
+    border-radius: 50px;
+    margin-left: -60px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css */
+@media only screen and (max-width:768px) {
+    .navbar-nav .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(111, 91, 224);
+        background-color: rgb(171, 238, 216);
+    }
+
+    .carousel-item .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 450px;
+        margin-left: -100px;
+
+    }
+
+    .title-section {
+        margin-top: 20px;
+        padding-top: 3px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .title-section h5 {
+        color: rgb(231, 224, 224);
+        font-size: 16px;
+    }
+
+    .title-section h1 {
+        font-size: 20px;
+    }
+
+    #img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        margin-top: 30px;
+        margin-right: 80px;
+
+    }
+/* footer section */
+
+#infor {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 15px;
+}
+
+#icon a{
+
+align-items: center;
+justify-content: space-between;
+}
+.icons a{
+    width: 100%;
+    font-size: 26px;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 23px;
+}
+#iimg #imgi{
+    width: 85%;
+    font-size: 12px;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 23px;
+}
+#footer{
+    padding: 5px 15px;
+}
+/*-------------- newsletter section here ------------*/
+
+
+#roc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+#newsl{
+   margin-left:20px ;
+}
+#newsl h3{
+    margin-left: 30px;
+}
+#last-img img{
+margin-left: 60px;
+margin-top: 40px;
+
+}
+/*---------------------- dotfari----------------------------------- */
+
+
+
+}

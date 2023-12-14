@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Shop</title>
+    <!------------------------------------ css link -------------------------------->
+    <link rel="stylesheet" href="style.css">
+    <!------------------------------------- bootstrap link -------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-------------------------------------- font-awesome lnk ----------------------------->
+    <script src="https://kit.fontawesome.com/7b907a9b06.js" crossorigin="anonymous"></script>
+    <!-------------------------------------- google-fonts link -------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-cart-shopping"></i> E-Shop</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Account</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search" id="search">
+                    <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search" id>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ------------------now Products section start------------- -->
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center mt-5 pt-5" id="pr-fr">
+            <h3 id="pr-fr">Products</h3>
+
+        </div><br>
+        <span>
+            <a href="">home</a>>
+            <a href="#">products</a>
+
+        </span>
+        <div class="row row-cols-1 row-cols-md-4 col-lg-12 g-4pt-4  pt-4 gy-5">
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/8zmgy3nt/product-6.png" class="card-img-top" style="height: 212px;"
+                    alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Almonds (Kath Badam</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">100 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 106</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/nV9WMgZM/121-4.png" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom: 13px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Coconut (Narikel)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">each</p>
+                        <h5 style="margin-top:-20px;">৳ 99</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/C1SjYZFj/cocola.webp" height="150px" width="200px" class="card-img-top"
+                    style="margin-bottom: 15px; padding-top: 25px;" alt="..."> <br><br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Cocola Egg Noodles</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">125 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 25</h5>
+                        <div>
+                            <button class="btn-cart border-0" style="margin-bottom: 10px;" id="cart-btn"><i
+                                    class="fa-solid fa-bag-shopping"></i> Add to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/XJ60vbhK/radhuni-1.png" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom: 15px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Radhuni Masala</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">20 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 15</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/nrsKSyF5/chickee.png" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom:15px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Broiler Chicken ±50 gm</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 180</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/Fswv63Zn/whole.png" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom: 15px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Deshi Chicken (±25 gm)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">500 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 270</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/NG4STTSr/cafee.png" height="200px" width="150px"
+                    style="margin-bottom:15px;" class="card-img-top" alt="...">
+
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Nestle Classic Coffee jar</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">25 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 90</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/43PFDHt9/beef.webp" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Beef Boneless (±25 gm)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 600</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/HsHH1X8S/daal-removebg-preview.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Deshi Moshur Dal</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 130</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/sxn4D5mk/kaskii.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Kaski Fish (±15 gm)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">250 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 120</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/tJh7BbZ2/hilishaa.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Hilisha Fish (±40 gm)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">500 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 400</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/rmMHDCGs/fressh.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Fresh Soyabean Oil</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">5 ltr</p>
+                        <h5 style="margin-top:-20px;">৳ 925</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/MKgqvNnG/pngegg.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Broiler Egg</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">12 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 120</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/ZKv07r3C/bomba.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Bombay Chanachur</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">300 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 80</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/dtWPyXDC/ramisaa.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Coconut Naru Box</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">25 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 100</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/13Z6DWT9/minikett.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Miniket Rice (Boiled)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">25 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 1900</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/nrBYqM4z/nazirshaiil.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Nazirshail Rice</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">25 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 1975</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/wv0cVnZK/mutton.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Mutton Khashi</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 800</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/vZTBgkLg/barin1-w.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Beef Brain (Mogoz)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">each</p>
+                        <h5 style="margin-top:-20px;">৳ 300</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/7YytLy49/liver.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Beef Liver (Kolija)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;">500 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 370</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <a href="index-2.html"> <button class="btn-car mt-5 " style="margin-left: 50px; width: 100px;">See More
+                </i></button>
+        </a>
+
+    </div>
+
+
+
+    <!-- -----------------------------newsletter section start-------------------------- -->
+    <div class="container mt-5 pt-3" id="sbs-e">
+        <div class="row d-flex
+     align-items-center justify-content-center" id="neweletter">
+            <div class="col-md-4 col-xs-6" id="newsl">
+                <img src="https://i.postimg.cc/Vk0SVgFT/paper-airplane-icon.png" class="img-fluid" width="180px" alt=""
+                    id="roc">
+            </div>
+            <div class="col-md-4 col-xs-6" id="newsl">
+                <h3 class="mb-3">subscribe to our newsletter</h3>
+                <div class="input-group" id="newsl">
+                    <input type="email" class="form-con" placeholder="your email address" required>
+                    <button class="btn btn" id="ne-btn" type="button">Submit </button>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6" id="last-img">
+                <img src="https://i.postimg.cc/x8xKQdh1/feature-img-3.png" class="img-fluid " alt="">
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------newsletter section end---------------------------- -->
+    <!-- -----------------------------Client says section start-------------------------- -->
+
+    <div class="container">
+       
+        <div class="row row-cols-12 row-cols-md-12  mt-5 ">
+            <div class="mb-5 mt-2 d-flex align-items-center justify-content-center fs-3" style="font-weight:700;">Our Client Say</div><hr>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="https://i.postimg.cc/g2s4f89P/pic-3.png" class="img-fluid rounded-start p-3 rounded-5" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Nicolash</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 ms-5" id="dotfair" style="max-width: 540px;">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="https://i.postimg.cc/13vcWS6m/pic-2.png" class="img-fluid rounded-start p-3 rounded-5" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">John Doe</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+        </div>
+    </div>
+
+</div>
+
+    <!-- -----------------------------Client says section end-------------------------- -->
+
+
+
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

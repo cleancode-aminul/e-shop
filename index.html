@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Shop</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- font-awesome lnk -->
+    <script src="https://kit.fontawesome.com/7b907a9b06.js" crossorigin="anonymous"></script>
+    <!-- google-fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-cart-shopping"></i> E-Shop</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#grocery">Grocery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#pharmacy">Pharmacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#cosmetic">Cosmetic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Account</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search" id="search">
+                    <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search" id>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel-section-start -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" id="home">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner" id="home">
+
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="title-section text-light">
+
+                            <h5>100% Healthy and Affordable</h5>
+                            <h1>Here You Will Find All Kinds Of Vegetables</h1>
+                            <h5>Small Changes Big Difference</h5>
+                            <button class="btn-car mt-3">Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img src="https://i.postimg.cc/WpBW7K6L/banner-1.png" class="img-fluid ms-5" id="img" alt="...">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="title-section text-light">
+                            <h5>100% Pure and Unadulterated Products</h5>
+                            <h1>Totally Country Quality <br> Products</h1>
+                            <h5>Native Brand Products</h5>
+                            <button class="btn-car mt-3">Shop Now</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img src="https://i.postimg.cc/1XRNsyDV/banner-2.png" class="d-block " id="img" alt="...">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="title-section text-light">
+                            <h5>100% Healthy and Chemical Free</h5>
+                            <h1>Organic Native Fresh<br>Vegetables</h1>
+                            <h5>Small Changes Big Difference</h5>
+                            <button class="btn-car mt-3">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://i.postimg.cc/G3M4vwkz/banner-3.png" class="d-block " id="img" alt="...">
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="title-section text-light ">
+                            <h5>100% Healthy and Affordable</h5>
+                            <h1>Available Organic Fruits and Juice</h1>
+                            <h5>We are Always provide very fresh food</h5>
+                            <button class="btn-car mt-3">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://i.postimg.cc/fyjnjhPC/banner-4.png" id="img" alt="...">
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="title-section text-light">
+                            <h5>100% Healthy and Affordable</h5>
+                            <h1>All Kinds Of Vegetables <br> Available Here</h1>
+                            <h5>Small Changes Big Difference</h5>
+                            <button class="btn-car mt-3">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://i.postimg.cc/fyFXK603/banner-5.png" class="d-block" id="img" alt="...">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+
+    <br>
+    <br>
+    <!-- features section start -->
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center" id="prod">
+            <h3>Feautres Products</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 align-items-center" id="feature p">
+            <div class="col">
+                <img src="https://i.postimg.cc/8C5d1XzK/cat-1.webp" class="card-img-top" height="120px" width="120px"
+                    id="fetc" alt="...">
+            </div>
+            <div class="col">
+                <img src="https://i.postimg.cc/G3M4vwkz/banner-3.png" class="card-img-top " height="120px" width="120px"
+                    alt="...">
+                <div class="card-body">
+                </div>
+            </div>
+            <div class="col">
+
+                <img src="https://i.postimg.cc/L4rfZBHX/meat1.png" class="card-img-top" height="120px" width="120px"
+                    alt="...">
+                <div class="card-body">
+                </div>
+            </div>
+            <div class="col">
+                <img src="https://i.postimg.cc/1XRNsyDV/banner-2.png" class="card-img-top" height="120px" width="120px"
+                    alt="...">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------now Products section start------------- -->
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center mt-5 pt-4" id="pr-br">
+            <h3 id="fruit">Fresh Fruits</h3>
+
+        </div><br>
+        <span>
+            <a href="">home</a>>
+            <a href="#grocery">grocery</a>>
+            <a href="#">fruits</a>
+        </span>
+        <div class="row row-cols-1 row-cols-md-4 col-lg-12 g-4  pt-4 gy-5">
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/SNDFgLN7/product-1.png" class="card-img-top" style="height: 212px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Orange</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 220</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/Ss7tJqn7/cart-img-1.png" height="200px" width="200px"
+                    class="card-img-top" style="margin-bottom: 13px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Watermelon</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 120</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/J09LQMQD/product-7.png" height="150px" width="140px" class="card-img-top"
+                    style="margin-bottom: 15px;" alt="..."> <br><br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Apple</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 150</h5>
+                        <div>
+                            <button class="btn-cart border-0" style="margin-bottom: 10px;" id="cart-btn"><i
+                                    class="fa-solid fa-bag-shopping"></i> Add to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/rFxmYPtX/melon.jpg" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom: 15px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Melon</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 100</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/HLJWFPF0/banana.webp" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom:15px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Banana</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >4 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 40</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/xjbGCKrY/daab-2.png" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom: 15px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Strawberry</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >250 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 200</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/gJKWqxQ0/daab-3.png" height="200px" width="150px"
+                    style="margin-bottom:15px;" class="card-img-top" alt="...">
+
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Grapes</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >500 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 300</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/xdShx0KN/daab-1.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Dubbed</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 100</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <a href="index-2.html"> <button class="btn-car mt-5 " style="margin-left: 50px; width: 100px;">See More
+                </i></button>
+        </a>
+
+    </div>
+    <!------------------------------------- new section start---------------------------- -->
+    <!-------------------------------------- grocery section start----------------------- -->
+    <div class="container" id="grocery">
+        <div class="d-flex align-items-center justify-content-center mt-5 pt-4" id="prod">
+            <h3>Groceries  Items</h3>
+        </div>
+        <span>
+            <a href="#home">home</a>>
+            <a href="#fruit">fruits</a>>
+            <a href="#grocery">grocery</a>
+        </span>
+
+        <div class="row row-cols-1 row-cols-md-4 col-lg-12 g-4 mt-4 pt-4">
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/QN13qyLz/groco-2.png" height="200px" width="200px"
+                    class="card-img-top" style="margin-bottom: 10px;;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Chashi Cahinigura Rice</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >2 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 310</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/Nf953FT2/potao.png" width="200px" height="200px" class="card-img-top"
+                    style="margin-bottom: 10px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Potato</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 30</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/5yfDwXV7/misti-k.png" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom: 12px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Sweet Pumpkin</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 70</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/PJRYJ5t6/groco-1.png" height="200px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Coriander leaves</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 tight</p>
+                        <h5 style="margin-top:-20px;">৳ 155</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/Hx1L19wr/sobuj.png" height="200px" width="200px" class="card-img-top"
+                    style="margin-bottom: 25px;" alt="...">
+                <br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Eggplant</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 50</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/hjt5jHb6/raw-onionsw.png" height="190px" width="200px"
+                    style="margin-bottom: 12px;" class="card-img-top" alt="...">
+                <br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Onion</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 50</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/Kz9v3hXM/1000-F-668.png" height="190px" width="200px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Cauliflower</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 50</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                            cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/cHjC5GDN/pran-nazirs.png" height="190px" width="190px"
+                    style="margin-bottom:18px;" class="card-img-top" alt="..."><br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Pran Nazirshail Rice</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >5 kg</p>
+                        <h5 style="margin-top:-20px;">৳ 490</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index-2.html"> <button class="btn-car mt-5 " style="margin-left: 50px; width: 100px;">See More
+                </i></button>
+        </a>
+    </div>
+
+    <!-------------------------------------- cosmetics section start------------------------------------ -->
+    <div class="container" id="cosmetic">
+        <div class="d-flex align-items-center justify-content-center mt-5 pt-4" id="prod">
+            <h3>Cosmetics    Items</h3>
+        </div>
+        <span>
+            <a href="#home">home</a>>
+            <a href="#grocery">grocery</a>>
+            <a href="#cosmetic">cosmetic</a>
+        </span>
+
+        <div class="row row-cols-1 row-cols-md-4 col-lg-12 g-4 mt-4 pt-4">
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/C5S5WVhK/csmt-removebg-preview.png" height="200px" width="200px"
+                    style="margin-bottom:18px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Vaseline Lotion</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >50 ml</p>
+                        <h5 style="margin-top:-20px;">৳ 99</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/wjdnFX8Q/perfm-3.png" width="190px" height="200px"
+                    class="card-img-top" style="margin-bottom:22px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Savlon Fresh Soap</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >125 gm</p>
+                        <h5 style="margin-top:-20px;">৳ 65</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/jSpsprvr/dove-face-wsh-removebg-preview.png" height="200px"
+                    style="margin-bottom: 15px;" width="200px" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Dove Face Wash</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >50 ml</p>
+                        <h5 style="margin-top:-20px;">৳ 165</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/mrsv3Z8h/studi2x-removebg-preview.png" height="195px"
+                    style="margin-bottom:18px;" width="200px" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Studio X Face Wash</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >100 ml</p>
+                        <h5 style="margin-top:-20px;">৳ 170</h5>
+                    
+
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/x8mrykDJ/meril-balive-removebg-preview.png" height="210px"
+                    style="margin-bottom: 15px;" width="220px" class="card-img-top" alt="...">
+                <br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Meril Baby Olive Oil (™)</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >100 ml</p>
+                        <h5 style="margin-top:-20px;">৳ 220</h5>
+                 
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                               cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/YqBXwtnp/perfm-2.png" height="190px" width="200px"
+                    class="card-img-top" style="margin-bottom: 2px;" alt="...">
+                <br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Cute Romance Perfume</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >50 ml</p>
+                        <h5 style="margin-top:-20px;">৳ 300</h5>
+                 
+
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/CLvfsNfW/fresh.png" height="190px" width="200px"
+                    style="margin-bottom:5px;" class="card-img-top" alt="...">
+                <br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Fresh Perfumed Facial Tissu</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >each</p>
+                        <h5 style="margin-top:-20px;">৳ 95</h5>
+                
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                               cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+                <img src="https://i.postimg.cc/pTq2M0xv/perfm-1.png" height="190px" width="190px" class="card-img-top"
+                    style="margin-bottom:8px;" alt="..."><br><br>
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Layer Women Body Spray</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >135 ml</p>
+                        <h5 style="margin-top:-20px;">৳ 495</h5>
+                   
+
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                              cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index-2.html"> <button class="btn-car mt-5 " style="margin-left: 50px; width: 100px;">See More
+                </i></button>
+        </a>
+    </div>
+    <!---------------------------------------------- medicine section start---------------------------------------------------- -->
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center mt-5 pt-4" id="prod">
+            <h3  id="pharmacy">Pharmacy Section</h3>
+        </div>
+        <span>
+            <a href="#home">home</a>>
+            <a href="#cosmetic">cosmetic</a>>
+            <a href="#pharmacy">pharmacy</a>
+        </span>
+
+        <div class="row row-cols-1 row-cols-md-4 col-lg-12 g-4 mt-4 pt-4">
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/HL0MXC0t/eno-1.png" height="190px" width="200px"
+                    style="margin-bottom:15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Eno Lemon Flavour</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 15</h5>
+
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                               cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/g0pXYT9L/eno-2.png" width="190px" height="190px"
+                    style="margin-bottom: 15px;" class="card-img-top" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Napa Extend Tablet</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >10 tablets (665mg)</p>
+                        <h5 style="margin-top:-20px;">৳ 25</h5>
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                               cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/4yywW3BG/sulprex.png" height="200px" width="200px"
+                    class="card-img-top" style="margin-bottom:8px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Sulprex Inhaler/puff</h5>
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >1 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 250</h5>
+                     
+
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="trans">
+
+                <img src="https://i.postimg.cc/TYDZ5Wfn/c5-senora.webp" height="200px" width="200px"
+                    class="card-img-top" style="margin-bottom:10px;" alt="...">
+                <div id="card">
+                    <div class="titiles">
+                        <h5>Senora Napkin</h5>
+
+                        <p><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
+                        <p style="margin-top:-18px;" >15 pcs</p>
+                        <h5 style="margin-top:-20px;">৳ 130</h5>
+
+              
+
+                        <div>
+                            <button class="btn-cart border-0" id="cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add
+                                to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index-2.html"> <button class="btn-car mt-5 " style="margin-left: 50px; width: 100px;">See More
+                </i></button>
+        </a>
+    </div>
+    <!--------------------------------- main section start--------------------------------------- -->
+    <div class="container">
+        <div class="row mt-5 pt-5">
+            <div class="col-12">
+                <div class="write">
+                    <img src="https://i.postimg.cc/jdYL7Pyb/deal-bg.webp" class="img-fluid" id="imgg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-6" id="count">
+            <h3>Special Discount For All<br> Grocery Products</h3>
+            <iframe
+                src="https://free.timeanddate.com/countdown/i8mg872w/n73/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw448/szh189/iso2022-12-08T12:00:00"
+                allowtransparency="true" frameborder="0" width="151" height="40"></iframe>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- --------------------footer section start------------------>
+    <div class="" id="footer">
+        <div class="container">
+            <div class="row mt-5 pt-2" id="infor">
+                <div class="col-md-3 col-sm-6">
+                    <h4>Contact</h4><br>
+                    <div class="" id="contact">
+                        <div class="row d-flex justify-content-between">
+                            <p class="prag"> <i class="fa-solid fa-house-user"><span> Gulshan R/A, Dhaka 1212</span></i>
+                            </p>
+                            <p class="prag"><i class="fa-solid fa-phone"><span> +8801319307170</span> </i> </p>
+                            <p class="prag"><i class="fa-brands fa-square-whatsapp"></i><span> +8801777178022</span></i>
+                            </p>
+
+                            <p class="prag"> <i class="fa-solid fa-envelope"><a href="" target="_blank"><span>
+                                            info.aminul.real@gmail.com</span></a> </i> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6" id="inor">
+                    <h4>Information</h4><br>
+                    <p class="fw-bold">🔰 Search Terms</p>
+                    <p class="fw-bold">🔰 Helps & Faqs</p>
+                    <p class="fw-bold">🔰 Store Location</p>
+                    <p class="fw-bold">🔰 Order & Return</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6" id="inor">
+                    <h4>Support</h4><br>
+                    <p class="fw-bold">🔰 Contact</p>
+                    <p class="fw-bold">🔰 Abour Us</p>
+                    <p class="fw-bold">🔰 Refund & Return</p>
+                    <p class="fw-bold">🔰 Deliveries</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6" id="ifor">
+                    <h4>Help</h4><br>
+                    <p class="fw-bold">🔰 Search</p>
+                    <p class="fw-bold">🔰 Help</p>
+                    <p class="fw-bold">🔰 Privacy Policy</p>
+                    <p class="fw-bold">🔰 Shipping</p>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-between mt-4" id="icon">
+                <div class="col-md-6">
+                    <div class="icon">
+                        <h5 class="icons">
+                            <a href="
+                        
+                        https://www.facebook.com/profile.php?id=100007864486994" target="_blank">
+                                <i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/helloSirajganj.net/">
+                                <i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCRsb8CHFtNvD3bTlZRo_PHQ" target="_blank">
+                                <i class="fa-brands fa-youtube"></i></a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 ms-auto" id="iimg">
+                    <img src="https://i.postimg.cc/vB3BS57K/payment.png" class="img-fluid" id="imgi" alt="">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="col-12 d-flex align-items-center justify-content-center mt-4 pt-2 pb-0">
+                    <p>©2022 ❤softtech ltd </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
